@@ -323,8 +323,11 @@ Static or class method from Base
 Non-static or Instance method from Derived
 
 
+
 ________________________________________________________________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________
+
+
 
 
 9. What is the difference between StringBuffer and StringBuilder?
@@ -461,7 +464,7 @@ ________________________________________________________________________________
 
 13. How many objects will be created for the following code?
 String str1 = "ashay"
-String str2 = "abc"
+String str2 = "ashay"
 
 
 When you write String str1 = “Ashay” java checks for this value in the string pool.
@@ -476,6 +479,11 @@ String pool is a part of heap memory only.
 It’s just we have given a section of heap memory dedicated to string objects only.
 
 
+
+
+
+_________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
 
 
 14. How many objects will be created for the following code?
@@ -547,6 +555,8 @@ String str2 = new String("Ashay")
 Ans: Two objects. The first line creates one string object in the string pool. 
 The second line will create one string object in heap memory and one in string pool but in the string pool,
 an object with the value “Ashay” is already present so the second line will not create an object in the string pool. So total objects created are two.
+
+
 
 
 
